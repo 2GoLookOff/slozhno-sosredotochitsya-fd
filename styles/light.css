@@ -3,11 +3,32 @@
   --header-border-color: #353430;
   --header-decoration-text-color: #ffc2e6;
   --header-decoration-blur-text-color: #ff8dcb;
+  --title-decor-text-color:#353430;
   --bg-color:#FFF1F7;
   --decorated-rec-display:none;
   --menu-button-hover-color: rgb(50,49,45, 0.4);
   --menu-button-focus-color: rgb(50,49,45);
   --header-background-image: url(../images/cover-image-light.png);
   --main-block-color-text: #353430;
+  --main-link-hover-color: #353430;
+  --main-link-focus-color: #353430;
 }
 
+
+@media (prefers-color-scheme: light) {
+  :root.theme-auto {
+    --basic-text-color: #353430;
+    --header-border-color: #353430;
+    --header-decoration-text-color: #ffc2e6;
+    --header-decoration-blur-text-color: #ff8dcb;
+    --bg-color:#FFF1F7;
+    --decorated-rec-display:none;
+    --menu-button-hover-color: rgb(50,49,45, 0.4);
+    --menu-button-focus-color: rgb(50,49,45);
+    --title-decor-text-color:#353430;
+    --header-background-image: url(../images/cover-image-light.png);
+    --main-block-color-text: #353430;
+    --main-link-hover-color: #353430;
+    --main-link-focus-color: #353430;
+  }
+}
