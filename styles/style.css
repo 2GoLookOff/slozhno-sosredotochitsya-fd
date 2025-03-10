@@ -17,7 +17,7 @@
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr min-content 1fr;
   justify-content: end;
-  color: var(--basic-text-color, #fff);
+  color: var(--basic-text-color, #000);
   block-size: 100vh;
   position: relative;
 }
