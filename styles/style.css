@@ -4,7 +4,6 @@
   font-family: var(--font-family, "IBM Plex mono", sans-serif);
   font-weight: var(--font-weight, 400);
   font-size: var(--font-size);
-  background-attachment: fixed;
   background-color: var(--bg-color);
 }
 
