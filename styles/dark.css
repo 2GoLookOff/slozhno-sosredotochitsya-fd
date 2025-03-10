@@ -16,8 +16,6 @@
   --main-link-focus-color: #f1b2ce;
 }
 
-
-
 @media (prefers-color-scheme: dark) {
   :root.theme-auto {
     --basic-text-color: #ff0070;
