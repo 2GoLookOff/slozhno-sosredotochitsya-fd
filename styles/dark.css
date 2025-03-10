@@ -3,7 +3,8 @@
   --header-border-color: #ff0070;
   --header-decoration-text-color: #db00ff;
   --header-decoration-blur-text-color: #ff0070;
-  --header-bg-color:#000028;
+  --bg-color:#000028;
+  --decorated-rec-display:block;
   --menu-button-hover-color: rgb(255,0,112, 0.4);
   --menu-button-focus-color: rgb(255, 0, 112);
   --title-decor-text-color: #000028;
@@ -11,7 +12,6 @@
   --title-decor-font-weight: 700;
   --header-background-image: url(../images/cover-image-dark.png);
   --main-block-color-text: #f1b2ce;
-
-  --main-link-hover-color: #F1B2CE;
-  --main-link-focus-color: #F1B2CE;
+  --main-link-hover-color: #f1b2ce;
+  --main-link-focus-color: #f1b2ce;
 }
