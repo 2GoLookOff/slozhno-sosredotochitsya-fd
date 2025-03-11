@@ -1,29 +1,47 @@
 :root {
-  --font-family:'IBM Plex mono', sans-serif;
+  --font-family: "IBM Plex mono", sans-serif;
   --font-weight: 400;
-  --font-size:1.125rem;
-  --basic-text-color:#353430;
-  --header-border-color:#353430;
-  --header-decoration-text-color:#ffc2e6;
-  --header-decoration-blur-text-color:#ff8dcb;
-  --bg-color:#FFF1F7;
-  --menu-button-hover-color: rgb(50,49,45, 0.4);
-  --menu-button-focus-color: rgb(50,49,45);
-  --title-decor-text-color:#353430;
-  --title-decor-bg-color:#FF8DCB;
-  --title-decor-font-weight:700;
+  --font-size: 1.125rem;
+  --basic-text-color: #353430;
+  --header-border-color: #353430;
+  --header-decoration-text-color: #ffc2e6;
+  --header-decoration-blur-text-color: #ff8dcb;
+  --bg-color: #fff1f7;
+  --menu-button-hover-color: rgb(50, 49, 45, 0.4);
+  --menu-button-focus-color: rgb(50, 49, 45);
+  --title-decor-text-color: #353430;
+  --title-decor-bg-color: #ff8dcb;
+  --title-decor-font-weight: 700;
   --header-background-image: url(../images/cover-image-light.png);
-  --main-block-color-text:#353430;
-  --main-margin-block-start:40px;
-  --main-section-h2-margin-block-end:20px;
+  --main-block-color-text: #353430;
+  --main-margin-block-start: 40px;
+  --main-section-h2-margin-block-end: 20px;
   --section-title-margin-block-end: 10px;
-  --section-block-paragraph-margin-block-end:20px;
-  --section-block-last-type-margind-block-end:30px;
-  --accent-title-margin-block-end:20px;
+  --section-block-paragraph-margin-block-end: 20px;
+  --section-block-last-type-margind-block-end: 30px;
+  --accent-title-margin-block-end: 20px;
   --font-weight-normal: 400;
-  --section-img-list-last-child-margin-block-end:40px;
-  --section-four-margin-block-end:20px;
+  --section-img-list-last-child-margin-block-end: 40px;
+  --section-image-margin-block-end: 20px;
   --main-link-hover-color: #353430;
   --main-link-focus-color: #353430;
-  }
+}
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --basic-text-color: #ff0070;
+    --header-border-color: #ff0070;
+    --header-decoration-text-color: #db00ff;
+    --header-decoration-blur-text-color: #ff0070;
+    --bg-color: #000028;
+    --decorated-rec-display: block;
+    --menu-button-hover-color: rgb(255, 0, 112, 0.4);
+    --menu-button-focus-color: rgb(255, 0, 112);
+    --title-decor-text-color: #000028;
+    --title-decor-bg-color: #ff0070;
+    --header-background-image: url(../images/cover-image-dark.png);
+    --main-block-color-text: #f1b2ce;
+    --main-link-hover-color: #f1b2ce;
+    --main-link-focus-color: #f1b2ce;
+  }
+}
