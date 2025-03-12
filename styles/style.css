@@ -372,7 +372,7 @@
     grid-template-columns: 1fr 2.06fr;
   }
 
-  .cards-container {
+  .section-causes .cards-container {
     grid-template-columns: repeat(3,1fr);
   }
 
