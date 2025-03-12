@@ -353,11 +353,6 @@
 @media (width >= 1024px) {
   .header {
     grid-template-columns: repeat(35, 1fr);
-    padding: 20px 20px 20px 0;
-  }
-
-  .header-title {
-    grid-column: 1 / 28;
   }
 
   .header__theme-menu {
@@ -369,7 +364,11 @@
 
   .header__theme-menu-list {
     grid-template-rows: 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .header-title {
+    grid-column: 1 / 28;
   }
 
   .header-paragraph {
