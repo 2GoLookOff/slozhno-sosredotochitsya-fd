@@ -355,12 +355,16 @@
 
 @media (width >= 1024px) {
   .header {
-    grid-template-columns: repeat(12, 1fr);
+    grid-template-columns: repeat(35, 1fr);
     padding: 20px 20px 20px 0;
   }
 
+  .header-title {
+    grid-column: 1 / 28;
+  }
+
   .header__theme-menu {
-    grid-column: 1/16;
+    grid-column: 1/36;
     justify-items: center;
     align-self: start;
     margin-inline-start: 20px;
@@ -372,7 +376,7 @@
   }
 
   .header-paragraph {
-    grid-column: 7 / 16;
+    grid-column: 19 / 36;
     margin-block-start: 15px;
   }
 
