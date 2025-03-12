@@ -364,7 +364,7 @@
   }
 
   .header__theme-menu {
-    grid-column: 1/36;
+    grid-column: 1/-1;
     justify-items: center;
     align-self: start;
     margin-inline-start: 20px;
