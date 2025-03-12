@@ -82,7 +82,7 @@
 .header__theme-menu-list {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(3,1fr);
+  grid-template-rows: repeat(3, 1fr);
   gap: 10px;
 }
 
@@ -352,7 +352,6 @@
     margin-block-end: var(--section-image-margin-block-end);
   }
 }
-
 
 @media (width >= 1024px) {
   .header {
