@@ -288,10 +288,15 @@
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
+    margin-block-end:var(--cards-container-margin-block-end, 80px);
   }
 
   .section-causes .cards-container .section-block {
     grid-row: auto;
+  }
+
+  .section-causes .cards-container .section-block  {
+    --section-block-paragraph-margin-block-end:0
   }
 
   .section-advices .cards-container .section-block {
@@ -304,12 +309,12 @@
   }
 
   .cards-container {
-    --section-block-last-type-margind-block-end: 80px;
+    --section-block-last-type-margind-block-end: 60px;
   }
 
-  .block-paragraph {
+  /* .block-paragraph {
     --section-block-paragraph-margin-block-end: 0;
-  }
+  } */
 
   .section-header {
     --main-section-header-margin-block-end: 0;
